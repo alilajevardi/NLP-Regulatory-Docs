@@ -21,13 +21,13 @@ You may need to install english dictionary via
     python -m spacy download en
 
 
-
 # Derieved insight
+Most of reg document are form US. 
 
-Most of reg document are form US.
 ![picture](https://github.com/alilajevardi/Regulatory-Insight/blob/main/artifacts/UIDs_Countries.png)
 
 Dataset includes two document types of PDF and HTML. The latter needs cleaning attention.
+
 ![picture](https://github.com/alilajevardi/Regulatory-Insight/blob/main/artifacts/HTML_PDF.png)
 
 
