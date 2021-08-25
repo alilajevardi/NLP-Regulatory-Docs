@@ -16,6 +16,14 @@ then activate it with
 
     conda activate ebrn
 
+# Derieved insight
+Most of reg document are form US.
+![picture](https://github.com/alilajevardi/Regulatory-Insight/blob/main/artifacts/UIDs_Countries.png)
+
+Dataset includes two document types of PDF and HTML. The latter needs cleaning attention.
+![picture](https://github.com/alilajevardi/Regulatory-Insight/blob/main/artifacts/HTML_PDF.png)
+
+
 # Findings
 Extracting dates form reg document via string manipulation has difficulty to come up with a pattern to capture the many ways a date can be written. A second difficulty is to identify numbers or expressions where we can be reasonable sure that the number signifies a date and not something like document code.
 
