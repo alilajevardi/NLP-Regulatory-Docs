@@ -23,6 +23,7 @@ You may need to install english dictionary via
 
 
 # Derieved insight
+
 Most of reg document are form US.
 ![picture](https://github.com/alilajevardi/Regulatory-Insight/blob/main/artifacts/UIDs_Countries.png)
 
