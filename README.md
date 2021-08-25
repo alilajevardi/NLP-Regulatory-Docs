@@ -14,7 +14,7 @@ You can install Anaconda and create a new environment with
     conda env create -f env.yml
 then activate it with
 
-    conda activate ebrn
+    conda activate nlp_reg
 
 # Derieved insight
 Most of reg document are form US.
@@ -24,10 +24,11 @@ Dataset includes two document types of PDF and HTML. The latter needs cleaning a
 ![picture](https://github.com/alilajevardi/Regulatory-Insight/blob/main/artifacts/HTML_PDF.png)
 
 
-# Findings
+# Methods and Outcomes
 Extracting dates form reg document via string manipulation has difficulty to come up with a pattern to capture the many ways a date can be written. A second difficulty is to identify numbers or expressions where we can be reasonable sure that the number signifies a date and not something like document code.
 
 My first attempt was to use Spacy NER in order to extract various dates of a reg doc. It need to be followed by ependency parsing that reconstructs the grammatical structure from a text. SpaCy has support for word vectors with very fast engine. It is recommended to use Spacy NER for production over Stanford NER. However results for extracting various dates of a reg doc is not a trivial task for SpaCy engine and results are not promising.
+![picture](https://github.com/alilajevardi/Regulatory-Insight/blob/main/artifacts/pipeline_Spacy_NER.png)
 
 
 Sophisticated techniques of empolying SOTA pre-trained networks (BERT or XLNet) illustrate a promising direction to solve the problem. 
